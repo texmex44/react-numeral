@@ -36,5 +36,8 @@
     "react": "^15.3.2",
     "webpack": "^1.13.3",
     "webpack-md5-hash": "0.0.5"
+  },
+  "devDependencies": {
+    "webpack-auto-inject-version": "^1.0.0"
   }
 }

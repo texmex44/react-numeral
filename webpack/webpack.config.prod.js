@@ -1,7 +1,7 @@
-require("babel-polyfill");
 var path = require('path');
 var webpack = require('webpack');
 var WebpackMd5Hash = require('webpack-md5-hash');
+var WebpackAutoInject = require('webpack-auto-inject-version');
 
 module.exports = {
   modulesDirectories: ["node_modules"],
@@ -31,6 +31,16 @@ module.exports = {
 	  mangle: true,
 	  compressor: {
 		warnings: false
+	  }
+	}),
+	new WebpackAutoInject({
+	  components: {
+		AutoIncreaseVersion: true
+	  },
+	  componentsOptions: {
+		AutoIncreaseVersion: {
+		  runInWatchMode: false // it will increase version with every single build!
+		}
 	  }
 	})
   ],
