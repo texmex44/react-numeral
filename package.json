@@ -1,0 +1,40 @@
+{
+  "name": "react-numeral",
+  "version": "1.0.0",
+  "description": "React implementation of numeral.js",
+  "main": "lib/react-numeral.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:webpack": "node webpack/build.js",
+    "build": "npm run build:webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/texmex44/react-numeral.git"
+  },
+  "keywords": [
+    "react",
+    "numeraljs"
+  ],
+  "author": "texmex44",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/texmex44/react-numeral/issues"
+  },
+  "homepage": "https://github.com/texmex44/react-numeral#readme",
+  "dependencies": {
+    "numeral": "^2.0.6",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.0",
+    "babel-loader": "^6.2.7",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.16.0",
+    "path": "^0.12.7",
+    "react": "^15.3.2",
+    "webpack": "^1.13.3",
+    "webpack-md5-hash": "0.0.5"
+  }
+}

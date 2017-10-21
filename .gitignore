@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+/node_modules/
+/.idea/
+.idea/inspectionProfiles/
+.idea/markdown-navigator.xml
+.idea/markdown-navigator/
+.idea/modules.xml
+.idea/react-numeral.iml
+.idea/vcs.xml
+.idea/workspace.xml
