@@ -5,8 +5,8 @@ React implementation of numeraljs
 
 To install, you can use [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com):
 
-    $ npm install --save react-modal
-    $ yarn add react-modal
+    $ npm install --save react-numeral
+    $ yarn add react-numeral
 
 ##Usage
 Here is a simple example of react-numeral being used in an app :
