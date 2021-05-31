@@ -2,8 +2,8 @@
   "name": "react-numeral",
   "version": "1.1.0",
   "description": "React implementation of numeral.js",
-  "main": "./lib/react-numeral.js",
-  "module": "./es/react-numeral.js",
+  "main": "./lib/Numeral.js",
+  "module": "./es/Numeral.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:webpack": "node webpack/build.js",
