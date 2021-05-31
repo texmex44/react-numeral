@@ -22,3 +22,4 @@ class Numeral extends Component {
 Numeral.propTypes = propTypes
 
 export default Numeral
+export {Numeral}
