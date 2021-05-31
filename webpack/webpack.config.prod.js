@@ -5,8 +5,6 @@ var WebpackAutoInject = require('webpack-auto-inject-version');
 
 module.exports = {
   modulesDirectories: ["node_modules"],
-  //devtool: 'source-map',
-  //Pour le module facebook "fb"
   node: {
 	fs: "empty",
 	tls: "empty",
@@ -14,7 +12,7 @@ module.exports = {
   },
   entry: ['babel-polyfill', './src/index.js'],
   output: {
-	path: path.join(__dirname, '../lib/'),
+	path: path.join(__dirname, '../dist/'),
 	filename: 'react-numeral.js'
   },
   plugins: [
