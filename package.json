@@ -1,6 +1,6 @@
 {
   "name": "react-numeral",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React implementation of numeral.js",
   "main": "dist/react-numeral.js",
   "scripts": {
