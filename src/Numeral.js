@@ -15,7 +15,7 @@ class Numeral extends Component {
 	const formated = (format)?numeral(value).format(format):numeral(value)
 	if(value)
 	  return <span className={`${(className)?className:''}`}>{formated}</span>
-	else return <noscript />
+	else return (null)
   }
 }
 
